@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+
+<body>
+    <h1><b><i><center>COMPANY NAME</center></i></b></h1>
+    <h2><b><center>EMPLOYMENT/ JOB APPLICATION</center></b></h2>
+    <center><p><i>(Please fill in capital letters)</i></p></center>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <h3><b><u>PERSONAL INFORMATION:</u></b></h3>
+    <br>
+    <form action="">
+        <label for="fname">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="fname" name="fname" placeholder="First">
+        <input type="text" id="fname" name="fname" placeholder="Middle">
+        <input type="text" id="fname" name="fname" placeholder="Last">
+        <label for="fdate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Date of Application: &nbsp;&nbsp;</label>
+        <input type="text" placeholder="Date">
+        <br>
+        <br>
+        <label>Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <textarea cols="150" rows="1"></textarea>
+        <br>
+        <br>
+        <label>Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+        
+        <label for="email"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  
+                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                             &nbsp; &nbsp;&nbsp;Email:  &nbsp; &nbsp;</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label>Alternate Phone: &nbsp;</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+        <label for="dob"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp;&nbsp;Date of Birth: &nbsp;&nbsp;</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <br>
+        <label>Aadhar Number: &nbsp;</label>
+        <input type="text">
+        <br>
+        <br>
+        <label>Position Applied:&nbsp;</label>
+        <input type="text">
+        <label for="dob"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                          &nbsp; &nbsp;&nbsp;Desired Salary: &nbsp;&nbsp;</label>
+        <input type="text">
+        <br>
+        <br>
+        <label>Are you a citizen of India?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" id="Yes" name="country" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="country" value="No">
+        <label for="No">No</label>
+        <br>
+        <br>
+        <label>Have you ever worked before?</label>
+        <input type="radio" id="Yes" name="experience" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="experience" value="No">
+        <label for="No">No</label>
+        <br>
+        <br>
+        <label>Attach your Resume:</label>
+        <br>
+        <label for="myfile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br>
+        <br>
+
+        <h3><b><u>EDUCATION</u></b></h3>
+        <table border="2" bordercolor="blue" cellspacing="0" cellpadding="5" width="50%">
+            <thead>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>Name and Location</td>
+                    <td>Year of Passing</td>
+                    <td>Score</td>
+                </tr>
+                <tr>
+                    <td><label>High School</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>College or University</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Specialized Training</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Other Education</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <br>
+
+        <h3><b><u>SKILLS</u></b></h3>
+        <table border="2" bordercolor="blue" cellspacing="0" cellpadding="5" width="50%">
+            <thead>
+                <tr>
+                    <td>Skill</td>
+                    <td>Low</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <br>
+        <label>Do you speak foreign languages?&nbsp;</label>
+        <input type="radio" id="Yes" name="language" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="language" value="No">
+        <label for="No">No</label>
+        <br>
+        <br>
+        <label>Can you work on holidays?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" id="Yes" name="work" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="work" value="No">
+        <label for="No">No</label>
+        <br>
+        <br>
+
+        <h3><b><u>REFERENCE</u></b></h3>
+        <label for="fname">Full Name: &nbsp;</label>
+        <input type="text" id="fname" name="fname" placeholder="First">
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Relationship: &nbsp;&nbsp;</label>
+        <input type="text" placeholder="Relationship">
+        <br>
+        <br>
+        <label for="fname">Company: &nbsp;&nbsp;</label>
+        <input type="text" placeholder="Company">
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;Phone: &nbsp;&nbsp;</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+        <br>
+        <br>
+        <label>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text">
+        <br>
+        <br>
+        <center><input type="submit" value="Submit"></center>
+    </form>
+</body>
