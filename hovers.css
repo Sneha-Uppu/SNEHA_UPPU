@@ -1,0 +1,30 @@
+#hovers-text{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    color: black;
+    text-align: center;
+}
+
+.image{
+    color: blueviolet;
+}
+
+#hovers-text:hover{
+    background-color: black;
+    color: white;
+}
+
+#hovers-img{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background-image: url(pic1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+#hovers-img:hover{
+    opacity: 1;
+}
