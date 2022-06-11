@@ -1,0 +1,140 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: blue;
+
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+
+}
+
+.menu{
+    background: orchid;
+    padding: 6px 0 6px 40px;
+}
+
+.menu  a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font: "Arial Narrow","Myraid Pro";
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1{
+    margin: 0px;
+    color: royalblue;
+    font-size: 24px;
+    font-family: "Arial Narrow";
+    font-weight: normal;
+}
+
+h2{
+    color: brown;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: yellowgreen;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.main a:hover{
+    color: yellowgreen;
+}
+
+#home-image img{
+    width: 100%;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #6d6d6d;
+    font-family: "Lucida Sans Unicode";
+    color: yellowgreen;
+    font-size: 11px;
+    text-decoration: right;
+}
+
+.separator{
+    color: aliceblue;
+    font-size: 11px;
+}
+
+/************ About Page Styles *********/
+#about-page #home-image img{
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 30%;
+    margin: 5px;
+}
+
+#about-page .description{
+    clear:both;
+}
+
+/*********Contact Page***********/
+#contact #form{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+#contact .page-heading h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact #form input{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+}
+
+#contact #form #submit{
+    height: 30px;
+    background: orchid;
+}
+
